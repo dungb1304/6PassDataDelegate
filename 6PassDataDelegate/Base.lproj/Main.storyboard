@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_PassDataDelegate" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the data text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmF-hV-QO8">
+                                <rect key="frame" x="112" y="323" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2Z-ng-yJ6">
+                                <rect key="frame" x="125.5" y="394" width="123" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.17364758459999999" blue="0.31117720900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="I want to delegate"/>
+                                <connections>
+                                    <action selector="btnDelegate:" destination="X2l-OL-9Hf" eventType="touchUpInside" id="6vg-wi-e12"/>
+                                    <segue destination="lkW-y9-vNA" kind="show" id="hjU-TH-aaO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.69275085300000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AmF-hV-QO8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="52p-de-yu4"/>
+                            <constraint firstItem="AmF-hV-QO8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="d2S-St-JsX"/>
+                            <constraint firstItem="C2Z-ng-yJ6" firstAttribute="top" secondItem="AmF-hV-QO8" secondAttribute="bottom" constant="50" id="nWf-Cy-pvy"/>
+                            <constraint firstItem="C2Z-ng-yJ6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yRt-1i-exx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textLabel" destination="AmF-hV-QO8" id="Tok-r4-q6a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="X2l-OL-9Hf" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="sCc-pg-cGa">
+            <objects>
+                <viewController id="lkW-y9-vNA" customClass="SecondViewController" customModule="_PassDataDelegate" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2jM-j2-22Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oQa-nX-Hhe">
+                                <rect key="frame" x="50" y="318.5" width="275" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSN-XL-zdZ">
+                                <rect key="frame" x="150.5" y="398.5" width="74" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.69275085300000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Delegating"/>
+                                <connections>
+                                    <action selector="btnDelegate:" destination="lkW-y9-vNA" eventType="touchUpInside" id="UAU-50-30Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.17364758459999999" blue="0.31117720900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oQa-nX-Hhe" firstAttribute="centerX" secondItem="2jM-j2-22Y" secondAttribute="centerX" id="3T4-D5-Njw"/>
+                            <constraint firstItem="oQa-nX-Hhe" firstAttribute="leading" secondItem="6bN-eI-cz1" secondAttribute="leading" constant="50" id="Hxf-qw-8jm"/>
+                            <constraint firstItem="pSN-XL-zdZ" firstAttribute="centerX" secondItem="2jM-j2-22Y" secondAttribute="centerX" id="d5m-Jo-Dxg"/>
+                            <constraint firstItem="pSN-XL-zdZ" firstAttribute="top" secondItem="oQa-nX-Hhe" secondAttribute="bottom" constant="50" id="ksg-rw-zHm"/>
+                            <constraint firstItem="6bN-eI-cz1" firstAttribute="trailing" secondItem="oQa-nX-Hhe" secondAttribute="trailing" constant="50" id="oQy-K2-ga1"/>
+                            <constraint firstItem="oQa-nX-Hhe" firstAttribute="centerY" secondItem="2jM-j2-22Y" secondAttribute="centerY" id="yc6-4V-Mep"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6bN-eI-cz1"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="oQa-nX-Hhe" id="u9Y-3I-Y4r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1XC-Jl-RZ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1486" y="95"/>
+        </scene>
+    </scenes>
+</document>

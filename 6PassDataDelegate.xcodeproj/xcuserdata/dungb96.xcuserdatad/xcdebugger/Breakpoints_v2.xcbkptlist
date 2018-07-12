@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "6PassDataDelegate/SecondViewController.swift"
+            timestampString = "550373430.102191"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_PassDataDelegate.SecondViewController.__deallocating_deinit"
+                  moduleName = "6PassDataDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dungb96/Desktop/MyProject/TableView/6PassDataDelegate/6PassDataDelegate/SecondViewController.swift"
+                  timestampString = "550373430.746909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_PassDataDelegate.SecondViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; _PassDataDelegate.SecondViewController"
+                  moduleName = "6PassDataDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dungb96/Desktop/MyProject/TableView/6PassDataDelegate/6PassDataDelegate/SecondViewController.swift"
+                  timestampString = "550373430.748377"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_PassDataDelegate.SecondViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; _PassDataDelegate.SecondViewController"
+                  moduleName = "6PassDataDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dungb96/Desktop/MyProject/TableView/6PassDataDelegate/6PassDataDelegate/SecondViewController.swift"
+                  timestampString = "550373430.750358"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_PassDataDelegate.SecondViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;_PassDataDelegate.SecondViewController&gt;"
+                  moduleName = "6PassDataDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dungb96/Desktop/MyProject/TableView/6PassDataDelegate/6PassDataDelegate/SecondViewController.swift"
+                  timestampString = "550373430.751889"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_PassDataDelegate.SecondViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;_PassDataDelegate.SecondViewController&gt;"
+                  moduleName = "6PassDataDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dungb96/Desktop/MyProject/TableView/6PassDataDelegate/6PassDataDelegate/SecondViewController.swift"
+                  timestampString = "550373430.753323"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "78">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
